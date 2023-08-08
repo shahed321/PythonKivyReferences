@@ -3,8 +3,8 @@ from kivy.uix.image import Image
 
 class MyImageApp(App):
     def build(self):
-        # Create an Image widget
-        image = Image(source='your_image_file.png')  # Replace with your image file path
+        
+        image = Image(source='../img/ball.jpg')
         
         return image
 
